@@ -134,38 +134,39 @@
               <i class="icon-screen-smartphone"></i>
             </span>
             <h4>
-              <strong>Better Prices</strong>
+               <button class="btn btn-primary" onclick="myFunction()">Better Prices</button>
             </h4>
-            <p class="text-faded mb-0">Access to economies of scale</p>
+            <p id="blockOne"class="text-faded mb-0">Access to economies of scale</p>
           </div>
           <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
             <span class="service-icon rounded-circle mx-auto mb-3">
               <i class="icon-pencil"></i>
             </span>
             <h4>
-              <strong>Inventory Management</strong>
+              <button class="btn btn-primary" onclick="myFunction2()">Inventory Management</button>
             </h4>
-            <p class="text-faded mb-0">Buy smarter and get orders to your door</p>
+            <p id="blockTwo"class="text-faded mb-0">Buy smarter and get orders to your door</p>
           </div>
           <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
             <span class="service-icon rounded-circle mx-auto mb-3">
               <i class="icon-like"></i>
             </span>
             <h4>
-              <strong>Financing</strong>
+              <button class="btn btn-primary" onclick="myFunction3()">Financing</button>
             </h4>
-            <p class="text-faded mb-0">Get 7 days of credit on all your purchases</p>
+            <p id="blockThree" class="text-faded mb-0">Get 7 days of credit on all your purchases</p>
           </div>
           <div class="col-lg-3 col-md-6">
             <span class="service-icon rounded-circle mx-auto mb-3">
               <i class="icon-mustache"></i>
             </span>
             <h4>
-              <strong>Business Support</strong>
+              <button class="btn btn-primary" onclick="myFunction4()">Business Support</button>
             </h4>
-            <p class="text-faded mb-0">Drive better business decisions</p>
+            <p id="blockFour"class="text-faded mb-0">Drive better business decisions</p>
           </div>
         </div>
+        <br><br><br><br><br><br>
         <p></p>
         <a class="btn btn-dark btn-xl js-scroll-trigger" href="#about">Who We Are</a>
       </div>
@@ -262,6 +263,53 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/stylish-portfolio.min.js"></script>
+
+
+    <script>
+    function myFunction() {
+      var x = document.getElementById("blockOne");
+      if (x.innerHTML === "Access to economies of scale") {
+        x.innerHTML = "Extra Information";
+        } else {
+        x.innerHTML = "Access to economies of scale";
+      }
+    }
+    </script>
+
+    <script>
+    function myFunction2() {
+      var x = document.getElementById("blockTwo");
+      if (x.innerHTML === "Buy smarter and get orders to your door") {
+        x.innerHTML = "Extra Information";
+        } else {
+        x.innerHTML = "Buy smarter and get orders to your door";
+      }
+    }
+    </script>
+
+    <script>
+    function myFunction3() {
+      var x = document.getElementById("blockThree");
+      if (x.innerHTML === "Get 7 days of credit on all your purchases") {
+        x.innerHTML = "Extra Information";
+        } else {
+        x.innerHTML = "Get 7 days of credit on all your purchases";
+      }
+    }
+    </script>
+
+    <script>
+    function myFunction4() {
+      var x = document.getElementById("blockFour");
+      if (x.innerHTML === "Drive better business decisions") {
+        x.innerHTML = "Extra Information";
+        } else {
+        x.innerHTML = "Drive better business decisions";
+      }
+    }
+    </script>
+
+
 
   </body>
 
