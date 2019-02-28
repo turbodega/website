@@ -108,8 +108,8 @@ h6 {
 
 @media (max-width:600px) {
     .masthead {
-        background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, .1)), to(rgba(255, 255, 255, .1))), url(../img/bg-masthead-mobile.jpg);
-        background: linear-gradient(90deg, rgba(255, 255, 255, .1) 0, rgba(255, 255, 255, .1) 100%), url(../img/bg-masthead-mobile.jpg);
+        background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, .1)), to(rgba(255, 255, 255, .1))), url(../img/bg-masthead-mobile-spanish.jpg);
+        background: linear-gradient(90deg, rgba(255, 255, 255, .1) 0, rgba(255, 255, 255, .1) 100%), url(../img/bg-masthead-mobile-spanish.jpg);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover
@@ -145,7 +145,7 @@ h6 {
     .language {
         position: absolute;
         top: 4%;
-        right: 15%;
+        right: 17%;
         font-size: 15px;
     }
 }
